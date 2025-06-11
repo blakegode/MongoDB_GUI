@@ -21,15 +21,10 @@ Compile the application:
 `javac -cp mongo-java-driver.jar MongoDB_GUI.java`
 (Replace `mongo-java-driver.jar` with the actual path to your MongoDB Java Driver JAR if it's located elsewhere or named differently.)
 
-Run the application:
-`java -cp .:mongo-java-driver.jar edu.umn.d.cs4322.QuickStart`
-(Replace `mongo-java-driver.jar` similarly if needed.)
-
 **Note:** Ensure the MongoDB Java Driver JAR is in your classpath during compilation and execution.
 
 ### Configuration
 The application connects to MongoDB using a connection URI defined in the `MongoDB_GUI.java` file (the `MONGO_URI` variable).
-By default, it is: `mongodb://gode0028:fnrbdplp@localhost:63334/?authSource=mongodb-mtext`
 If your MongoDB instance is different, or uses different credentials, you **must** update this URI in the `MongoDB_GUI.java` file before compiling and running the application.
 
 ## Database Setup
