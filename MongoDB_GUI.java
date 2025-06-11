@@ -130,7 +130,7 @@ public class QuickStart extends javax.swing.JFrame {
         java.awt.EventQueue.invokeLater(() -> new QuickStart().setVisible(true));
     }
 
-    private final String MONGO_URI = "mongodb://gode0028:fnrbdplp@localhost:63334/?authSource=mongodb-mtext";
+    private final String MONGO_URI = "";
 
     private List<Document> movieList = new ArrayList<>();
     private javax.swing.JButton btnSearch;
